@@ -1,0 +1,99 @@
+body {
+	font-family: "Arial", Georgia, Serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Arial";
+    letter-spacing: 5px;
+}
+
+.picture{
+	float:left;
+	margin-right:30px;
+}	
+
+.custom-padding{
+	padding-top:64px;
+}
+
+.text-beside-image{
+	margin-left:210px;
+}
+
+.font-price{
+	font-size:25px;
+	font-family:'Times New Roman', cursive, sans-serif;
+}
+
+.header-width{
+	max-width:1600px;
+	min-width:500px;
+}
+
+.imghover:hover{
+	background-color:grey;
+	opacity: 0.5 ;
+}
+
+.imghover{
+	margin-top:5px;
+}
+
+.card-width{
+	width:50%;
+	
+}
+.card-padding{
+	padding:30px;
+}
+
+.button-margin{
+	margin-top: 50px;
+}
+
+.card-background{
+	background-color:#D3D3D3;
+}
+
+.flowershop-background{
+	background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("images/flowershop_background.jpg");
+	height:120%;
+	width:100%;
+}
+
+.addtocartbtn{
+	margin-top:20px;
+	margin-left:150px;
+}
+
+
+.content-custom {
+   flex: 1;
+}
+
+.dropdownspecial{
+	display:block;
+}
+
+.content-max-width{
+	max-width:1100px;
+}
+
+.header-letter-spacing{
+	letter-spacing:2px;
+}
+
+.header-time-letter-spacing{
+	letter-spacing:0px;
+}
+
+.modal-max-width{
+	max-width:600px;
+}
+
+.invisible{
+	display:none;
+}
